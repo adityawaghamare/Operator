@@ -73,6 +73,10 @@ operator --list-models             # что вообще доступно
 
 Лежат в `~/.opr/agent/sessions/`, по одному jsonl-файлу на сессию, автосейв на каждом шаге. `--fork` берёт существующую сессию и продолжает её в новую, не трогая оригинал.
 
+## Десктоп-версия
+
+Есть и GUI: [Operator Desktop](https://github.com/yrn-dev/operator-desk) — Electron-приложение, которое поднимает `opr --mode rpc` и рисует сам: сессии, живая лента, вложения, плагины. Этим репо живёт CLI (`pzero-operator`), Desktop-версия — в отдельном репо [yrn-dev/operator-desk](https://github.com/yrn-dev/operator-desk) (сборка под macOS/Linux/Windows — в его `BUILD.md`).
+
 ## Лицензия
 
 MIT © Yernur
